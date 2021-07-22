@@ -25,7 +25,7 @@ namespace Statistics
                 {
                     for(int j = 0; j < alerter.Length; ++j)
                     {
-                        alerter[j].work();
+                        alerter[j].Alert();
                     }
                     break;
                 }
