@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Statistics
 {
 
-    public class MailAlert : IAlertSender
+    public class MailAlert : IAlert
     {
         
         public bool emailAlert;
