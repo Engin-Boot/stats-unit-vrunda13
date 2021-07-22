@@ -25,11 +25,11 @@ namespace Statistics
                 
             }
       
-            averageValue = sumOfValues/numbers.Count;
+            average = sumOfValues/numbers.Count;
             numbers.average = average;
             numbers.max = max;
             numbers.min = min;
-            return Values;
+            return numbers;
             
         }
     }
