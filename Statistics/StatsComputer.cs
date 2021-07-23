@@ -11,6 +11,13 @@ namespace Statistics
         
         public Stats CalculateStatistics(List<float> numbers) {
             Stats numbers = new Stats();
+            if (numbers.Count == 0)
+            {
+                numbers.average = Double.NaN;
+                numbers.min = Double.NaN;
+                numbers.max = Double.NaN;
+                return numbers;
+            }
             float sumOfValues = 0;
             for(int i = 0; i < numbers.Count; i++)
             {
